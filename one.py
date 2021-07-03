@@ -8,7 +8,6 @@ if len(string) < 2:
 else:
     for i in string:
         print(i)            # Just for understanding loop
-        print("*" * 2)      # Just for understanding loop
         count = count + 1
 
     new = string[0:2] + string[count - 2:count]
